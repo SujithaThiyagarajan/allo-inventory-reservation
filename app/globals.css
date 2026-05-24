@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  color: #111;
+}
+
+main {
+  max-width: 640px;
+  margin: 48px auto;
+  padding: 0 20px;
+}
+
+button,
+a {
+  display: inline-block;
+  margin-top: 16px;
+}
+
+button {
+  padding: 10px 14px;
+  border: 1px solid #111;
+  background: #111;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
